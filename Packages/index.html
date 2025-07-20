@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="Arrow 05.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- navabar-started-->
+    <div class="main-section">
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar px-4">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo" class="image-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto gap-4">
+                    <li class="nav-item "><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item "><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item "><a class="nav-link" href="#">Packages</a></li>
+                    <li class="nav-item "><a class="nav-link" href="services.html">Services</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a href="Admin-Panel/html/index.html"><button class="btn custom-btn">Dashboard</button></a>
+                    <a href="login.html"><button class="btn custom-btn ">Login</button></a>
+                </div>
+            </div>
+        </nav>
+        <!-- navabar-ended -->
+
+        <!-- hero-section-started -->
+        <div class="hero-section">
+            <p class="text-center fw-bold">Search Tour</p>
+            <h1 class="display-1 text-center fw-bold animate__animated animate__flipInX">Travel with Us</h1>
+        </div>
+    </div>
+    <!-- hero-section-ended -->
+
+    <!-- feature-section-started -->
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/schedule (3).png" alt="Calendar">
+                    <p>Date</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/up-arrow.png" alt="Upload">
+                    <p>Price Low to High</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/download.png" alt="Download">
+                    <p>Price High to Low</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/pencil.png" alt="Write">
+                    <p>Name (A-Z)</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/schedule (3).png" alt="Calendar">
+                    <p>Date</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/up-arrow.png" alt="Upload">
+                    <p>Price Low to High</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/download.png" alt="Download">
+                    <p>Price High to Low</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <img src="./images/pencil.png" alt="Write">
+                    <p>Name (A-Z)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature-section-ended -->
+
+    <!-- card-section-started -->
+    <div class="container custom-main-container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="row row-cols-1 row-cols-md-2 g-4 mb-5" id="cardContainer">
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center" id="pagination">
+                    </ul>
+                </nav>
+            </div>
+            <!-- card-section-ended -->
+
+            <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                <div class="form-container">
+                    <h2 class="form-title">Plan Your Trip</h2>
+                    <p class="form-description">Plan your next journey effortlessly with our simple form below.</p>
+                    <form class="plan-trip-form">
+                        <input type="text" placeholder="Search Tour" class="form-control mb-3">
+                        <input type="text" placeholder="Where To?" class="form-control mb-3">
+                        <input type="date" class="form-control mb-4">
+                        <button type="submit" class="btn btn-primary w-100">Book Now</button>
+                    </form>
+                </div>
+                <div class="form-below-image-wrapper text-center mt-5">
+                    <dotlottie-wc src="https://lottie.host/b7d2e990-9090-4c8e-bee3-5d329e4a2c9d/oZN36M4s7E.lottie"
+                        style="width: 300px;height: 300px;margin-top: 500px;" speed="1" autoplay loop></dotlottie-wc>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- extra section started -->
+    <div class="discount">
+        <section class="parallax-hero">
+            <div class="hero-content">
+                <h1>15% OFF</h1>
+                <h2>Aerial view of Cape Town with Cape Town Stadium</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel velit auctor aliquet.
+                </p>
+                <a href="#" class="button">VIEW MORE</a>
+            </div>
+        </section>
+    </div>
+    <!-- extra section ended -->
+
+    <!-- footer started -->
+    <footer class="footer">
+        <div class="footer-top-banner">
+            <h2>Stay With Us On Social</h2>
+            <div class="social-links">
+                <span>FOLLOW US :</span>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <!-- Logo & Contact -->
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <p> Will send you weekly updates for your better
+                    tour packages<br></p>
+                <h4>Contact</h4>
+                <p><i class="fas fa-phone-alt"></i> +123 (4567) 890</p>
+                <p><i class="fas fa-envelope"></i> example@gmail.com</p>
+            </div>
+
+            <!-- Company Links -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Meet Our Team</a></li>
+                    <li><a href="#">Latest Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Donations</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-col newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe Our Newsletter</p>
+                <form>
+                    <input type="email" placeholder="Enter Your E-Mail*" required style="border: 1px solid white;" />
+                    <button type="submit">SUBSCRIBE <span>→</span></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Copyright Xpro 2022 <strong>Tour</strong> All rights reserved by <span>tours.com</span></p>
+        </div>
+    </footer>
+    <!-- footer ended -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
