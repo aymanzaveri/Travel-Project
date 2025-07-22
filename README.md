@@ -5,4 +5,4 @@ The Hosted Link to Packages Page :
 https://sunny-kulfi-e48a47.netlify.app/
 
 The Hosted Link to Admin Panel:
-https://guileless-selkie-b1aa12.netlify.app/admin-panel/html/
+https://earnest-kangaroo-a64c79.netlify.app/admin-panel/html/
